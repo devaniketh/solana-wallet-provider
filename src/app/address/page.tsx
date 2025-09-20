@@ -24,7 +24,7 @@ export default function Address() {
       if (sigResult) {
         alert("Airdrop was confirmed!");
       }
-    } catch (err) {
+    } catch {
       alert("You are Rate limited for Airdrop");
     }
   };

@@ -1,4 +1,5 @@
-import AppWalletProvider from "./components/AppWalletProvider.tsx";
+import AppWalletProvider from "./components/AppWalletProvider";
+import "./globals.css";
 
 export default function RootLayout({
   children,
